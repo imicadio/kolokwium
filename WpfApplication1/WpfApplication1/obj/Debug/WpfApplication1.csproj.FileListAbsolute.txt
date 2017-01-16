@@ -1,0 +1,13 @@
+D:\ISI\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\ISI\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\ISI\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\ISI\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb

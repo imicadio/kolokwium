@@ -1,0 +1,30 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WpfApplication1.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="DataRezerwacji" Content="Data Rezerwacji" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="116" Click="DataRezerwacji_Click"/>
+        <Button x:Name="DodajRezerwacje" Content="Dodaj Rezerwacje" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="116" Click="DodajRezerwacje_Click"/>
+        <Button x:Name="UsunRezerwacje" Content="Usuń Rezerwacje" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Width="116" Click="UsunRezerwacje_Click"/>
+        <Button x:Name="Wyczysc" Content="Wyczyść" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" Width="116" Click="Wyczysc_Click"/>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Height="143" Margin="166,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="320"/>
+        <Grid x:Name="GridDaty" HorizontalAlignment="Left" Height="100" Margin="166,189,0,0" VerticalAlignment="Top" Width="320">
+            <Label Content="Data Rezerwacji&#xD;&#xA;(yyyy-mm-dd)" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Height="80" Width="125"/>
+            <TextBox x:Name="DataTextBox" HorizontalAlignment="Left" Height="23" Margin="137,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+            <Button x:Name="DodajData" Content="Dodaj" HorizontalAlignment="Left" Margin="215,68,0,0" VerticalAlignment="Top" Width="75" Click="DodajData_Click"/>
+        </Grid>
+        <Grid x:Name="GridGoscia" HorizontalAlignment="Left" Height="121" Margin="166,189,0,0" VerticalAlignment="Top" Width="320" d:IsHidden="True">
+            <Label Content="Imię gościa:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74"/>
+            <Label Content="Nazwisko:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="0,31,0,0"/>
+            <Label Content="Numer Pokoju:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="0,57,0,0"/>
+            <Label Content="Cena za dobę:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="0,83,0,0"/>
+            <TextBox x:Name="ImieGoscia" HorizontalAlignment="Left" Height="23" Margin="103,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+            <TextBox x:Name="NazwiskoGoscia" HorizontalAlignment="Left" Height="23" Margin="103,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+            <TextBox x:Name="NrPokoju" HorizontalAlignment="Left" Height="23" Margin="103,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+            <TextBox x:Name="CenaZaDobe" HorizontalAlignment="Left" Height="23" Margin="103,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+            <Button x:Name="DodajGoscie" Content="Dodaj" HorizontalAlignment="Left" Margin="257,3,0,0" VerticalAlignment="Top" Width="63" Height="108" Click="DodajGoscie_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>
